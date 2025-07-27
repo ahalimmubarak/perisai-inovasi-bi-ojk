@@ -2,34 +2,34 @@
 
 PerisAI: Platform berbasis Generative AI untuk pemetaan online fraud secara real time
 
-> Main (Halaman Utama)
-Tampilan awal aplikasi yang menyambut pengguna dengan informasi singkat tentang platform.
+Main (Halaman Utama)
+> Tampilan awal aplikasi yang menyambut pengguna dengan informasi singkat tentang platform.
 Terdapat tombol "Masuk ke Aplikasi" yang mengarahkan ke halaman login.
 
-> Login
-Pengguna memasukkan username dan password untuk masuk ke sistem.
+Login
+> Pengguna memasukkan username dan password untuk masuk ke sistem.
 Setelah berhasil login, pengguna diarahkan ke Dashboard.
 
-> Dashboard
-Menyajikan ringkasan data analisis fraud secara cepat:
+Dashboard
+> Menyajikan ringkasan data analisis fraud secara cepat:
 Jumlah kasus terdeteksi.
 Kerugian keuangan yang terjadi.
 Tingkat kepercayaan AI.
 Status peringatan (contohnya: "AWAS").
 
-> Navigation
-Menu navigasi utama yang memungkinkan pengguna mengakses fitur-fitur lain:
+Navigation
+> Menu navigasi utama yang memungkinkan pengguna mengakses fitur-fitur lain:
 Dashboard
 Investigasi
 Kasus
 Aturan & Model AI
 
-> Investigasi
-Halaman untuk menganalisis jaringan fraud lebih mendalam.
+Investigasi
+> Halaman untuk menganalisis jaringan fraud lebih mendalam.
 Menampilkan entitas yang terlibat, seperti IP, lokasi, serta tingkat risiko.
 
-> Manajemen Kasus
-Menyediakan daftar semua kasus fraud yang terdeteksi.
+Manajemen Kasus
+> Menyediakan daftar semua kasus fraud yang terdeteksi.
 Dapat disaring berdasarkan status dan risiko.
 Ada opsi untuk menambahkan kasus baru.
 
