@@ -33,14 +33,14 @@ Manajemen Kasus
 Dapat disaring berdasarkan status dan risiko.
 Ada opsi untuk menambahkan kasus baru.
 
-> Laporan & Analisis
-Menampilkan statistik dan tren:
+Laporan & Analisis
+> Menampilkan statistik dan tren:
 Total transaksi yang dicek.
 Nilai transaksi.
 Jenis fraud yang paling sering muncul.
 Durasi rata-rata investigasi.
 
-> Pengaturan / Aturan & Model AI
-Membuat aturan (rules) untuk mendeteksi fraud.
+Pengaturan / Aturan & Model AI
+> Membuat aturan (rules) untuk mendeteksi fraud.
 Mengelola model AI Generatif yang digunakan.
 Melihat tingkat akurasi model AI.
