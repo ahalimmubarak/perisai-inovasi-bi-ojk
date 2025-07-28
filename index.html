@@ -15,9 +15,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
-    <!-- Favicon -->
-    <link rel="icon"
-        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24'%3E%3Cstyle%3Epath{stroke-linecap:round;stroke-linejoin:round;stroke-width:2;stroke:%230052cc}%3C/style%3E%3Cpath d='M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z'/%3E%3C/svg%3E">
+    <!-- ===== PENAMBAHAN FAVICON ===== -->
+    <link rel="icon" href="assets/img/logo perisai2.png">
 
     <!-- Konfigurasi Kustom untuk Tailwind CSS -->
     <script>
@@ -63,12 +62,7 @@
 
         <nav class="max-w-8xl mx-auto px-4 sm:px-4 py-4 flex justify-between items-center">
             <a href="#" class="flex items-center">
-                <svg class="w-8 h-8 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
-                    </path>
-                </svg>
+                <img src="assets/img/logo perisai2.png" alt="Logo" class="w-10 h-10 mr-2">
                 <span class="text-2xl font-bold text-primary">Peris<span
                         class="text-primary-dark dark:text-primary">AI</span></span>
             </a>
@@ -146,7 +140,8 @@
     <!-- Main Content -->
     <main>
         <!-- Hero Section -->
-        <section class="relative h-[80vh] bg-cover bg-center flex items-center justify-center text-center" style="background-image: url('assets/img/3.jpg');">
+        <section class="relative h-[80vh] bg-cover bg-center flex items-center justify-center text-center"
+            style="background-image: url('assets/img/3.jpg');">
 
             <!-- <div class="absolute inset-0 bg-black/60 z-10"></div> -->
             <div class="max-w-8xl mx-auto px-4 sm:px-6 text-center relative z-10">
@@ -232,7 +227,9 @@
         <section id="tentang" class="bg-secondary dark:bg-dark-card py-20">
             <div class="max-w-8xl mx-auto px-4 sm:px-6 flex flex-col lg:flex-row items-center gap-12">
                 <div class="w-full lg:w-1/2">
-                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop" alt="[Gambar tim Virtual Fighter sedang berdiskusi]" class="rounded-xl shadow-2xl w-full h-80 object-cover">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop"
+                        alt="[Gambar tim Virtual Fighter sedang berdiskusi]"
+                        class="rounded-xl shadow-2xl w-full h-80 object-cover">
                 </div>
                 <div class="lg:w-1/2">
                     <h2 class="text-3xl md:text-4xl font-bold text-dark-text dark:text-white">Misi Kami:
@@ -298,34 +295,50 @@
             <div class="max-w-8xl mx-auto px-4 sm:px-6">
                 <div class="text-center mb-16">
                     <h2 class="text-3xl md:text-4xl font-bold text-dark-text dark:text-white">Blog Kami</h2>
-                    <p class="text-light-text dark:text-gray-400 mt-4 max-w-2xl mx-auto">Wawasan, tips, dan berita terbaru dari dunia keamanan siber.</p>
+                    <p class="text-light-text dark:text-gray-400 mt-4 max-w-2xl mx-auto">Wawasan, tips, dan berita
+                        terbaru dari dunia keamanan siber.</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Blog Post 1 -->
                     <div class="bg-white dark:bg-dark-bg rounded-xl shadow-lg overflow-hidden group">
-                        <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=2070&auto=format&fit=crop" alt="[Gambar laptop dengan kode di layar]" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=2070&auto=format&fit=crop"
+                            alt="[Gambar laptop dengan kode di layar]"
+                            class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
                         <div class="p-6">
                             <span class="text-sm font-semibold text-primary">Tips Keamanan</span>
-                            <h3 class="mt-2 text-xl font-bold text-dark-text dark:text-white group-hover:text-primary dark:group-hover:text-blue-400 transition-colors">5 Cara Mudah Mengamankan Akun Online Anda dari Phishing</h3>
-                            <p class="mt-3 text-light-text dark:text-gray-400 text-sm">Pelajari langkah-langkah praktis untuk mengidentifikasi dan menghindari upaya phishing yang semakin canggih.</p>
+                            <h3
+                                class="mt-2 text-xl font-bold text-dark-text dark:text-white group-hover:text-primary dark:group-hover:text-blue-400 transition-colors">
+                                5 Cara Mudah Mengamankan Akun Online Anda dari Phishing</h3>
+                            <p class="mt-3 text-light-text dark:text-gray-400 text-sm">Pelajari langkah-langkah praktis
+                                untuk mengidentifikasi dan menghindari upaya phishing yang semakin canggih.</p>
                         </div>
                     </div>
                     <!-- Blog Post 2 -->
                     <div class="bg-white dark:bg-dark-bg rounded-xl shadow-lg overflow-hidden group">
-                        <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?q=80&w=2070&auto=format&fit=crop" alt="[Gambar server room]" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?q=80&w=2070&auto=format&fit=crop"
+                            alt="[Gambar server room]"
+                            class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
                         <div class="p-6">
                             <span class="text-sm font-semibold text-primary">Analisis</span>
-                            <h3 class="mt-2 text-xl font-bold text-dark-text dark:text-white group-hover:text-primary dark:group-hover:text-blue-400 transition-colors">Bagaimana AI Mengubah Wajah Deteksi Fraud?</h3>
-                            <p class="mt-3 text-light-text dark:text-gray-400 text-sm">Melihat lebih dalam bagaimana machine learning dan AI proaktif dalam menemukan pola penipuan yang kompleks.</p>
+                            <h3
+                                class="mt-2 text-xl font-bold text-dark-text dark:text-white group-hover:text-primary dark:group-hover:text-blue-400 transition-colors">
+                                Bagaimana AI Mengubah Wajah Deteksi Fraud?</h3>
+                            <p class="mt-3 text-light-text dark:text-gray-400 text-sm">Melihat lebih dalam bagaimana
+                                machine learning dan AI proaktif dalam menemukan pola penipuan yang kompleks.</p>
                         </div>
                     </div>
                     <!-- Blog Post 3 -->
                     <div class="bg-white dark:bg-dark-bg rounded-xl shadow-lg overflow-hidden group">
-                        <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?q=80&w=2070&auto=format&fit=crop" alt="[Gambar keyboard dan mouse gaming]" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?q=80&w=2070&auto=format&fit=crop"
+                            alt="[Gambar keyboard dan mouse gaming]"
+                            class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
                         <div class="p-6">
                             <span class="text-sm font-semibold text-primary">Berita</span>
-                            <h3 class="mt-2 text-xl font-bold text-dark-text dark:text-white group-hover:text-primary dark:group-hover:text-blue-400 transition-colors">Studi Kasus: Melindungi E-commerce dari Serangan Bot</h3>
-                            <p class="mt-3 text-light-text dark:text-gray-400 text-sm">Bagaimana PerisAI membantu sebuah platform e-commerce besar mengurangi kerugian akibat aktivitas bot jahat.</p>
+                            <h3
+                                class="mt-2 text-xl font-bold text-dark-text dark:text-white group-hover:text-primary dark:group-hover:text-blue-400 transition-colors">
+                                Studi Kasus: Melindungi E-commerce dari Serangan Bot</h3>
+                            <p class="mt-3 text-light-text dark:text-gray-400 text-sm">Bagaimana PerisAI membantu sebuah
+                                platform e-commerce besar mengurangi kerugian akibat aktivitas bot jahat.</p>
                         </div>
                     </div>
                 </div>
@@ -340,12 +353,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                 <div class="col-span-1 md:col-span-2 lg:col-span-1">
                     <a href="#" class="flex items-center text-2xl font-bold text-white">
-                        <svg class="w-8 h-8 text-blue-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
-                            </path>
-                        </svg>
+                        <img src="assets/img/logo perisai2.png" alt="Logo" class="w-10 h-10 mr-2">
                         Peris<span class="text-blue-400">AI</span>
                     </a>
                     <p class="mt-4 text-gray-400">Platform berbasis GenAI untuk pemetaan online fraud secara real time.

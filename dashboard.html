@@ -8,8 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- ===== PENAMBAHAN FAVICON ===== -->
-    <link rel="icon"
-        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24'%3E%3Cstyle%3Epath{stroke-linecap:round;stroke-linejoin:round;stroke-width:2;stroke:%2360A5FA}%3C/style%3E%3Cpath d='M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z'/%3E%3C/svg%3E">
+    <link rel="icon" href="assets/img/logo perisai2.png">
 
     <!-- ===== PENAMBAHAN FONT INTER ===== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,12 +52,7 @@
         <!-- ===== Mobile Menu Button ===== -->
         <div class="md:hidden flex justify-between items-center bg-gray-800 p-4 text-white sticky top-0 z-10">
             <a class="flex items-center">
-                <svg class="w-8 h-8 text-blue-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
-                    </path>
-                </svg>
+                <img src="assets/img/logo perisai2.png" alt="Logo" class="w-10 h-10 mr-2">
                 <h1 class="text-xl font-bold">Peris<span class="text-blue-400">AI</span></h1>
             </a>
             <button id="mobile-menu-button" class="focus:outline-none">
@@ -75,12 +69,7 @@
             class="w-64 bg-gray-800 p-4 flex-col justify-between fixed inset-y-0 left-0 transform -translate-x-full md:translate-x-0 transition-transform duration-200 ease-in-out z-30 flex h-screen">
             <div>
                 <div class="hidden md:flex items-center mb-8">
-                    <svg class="w-8 h-8 text-blue-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
-                        </path>
-                    </svg>
+                    <img src="assets/img/logo perisai2.png" alt="Logo" class="w-10 h-10 mr-2">
                     <h1 class="text-2xl font-bold text-white tracking-wider">Peris<span class="text-blue-400">AI</span>
                     </h1>
                 </div>
@@ -205,8 +194,30 @@
                     <div class="lg:col-span-2 bg-gray-800 p-6 rounded-lg shadow-lg h-full min-h-[400px]">
                         <h3 class="text-xl font-bold text-white mb-4">Peta Jaringan Fraud (Network Graph)</h3>
                         <div
-                            class="flex items-center justify-center min-h-[300px] border-2 border-dashed border-gray-600 rounded-lg">
-                            <p class="text-gray-500">Area visualisasi network graph akan muncul di sini.</p>
+                            class="relative flex items-center justify-center min-h-[300px] border-2 border-dashed border-gray-600 rounded-lg">
+
+                            <span class="absolute top-[30%] left-[40%] z-30 flex h-3 w-3">
+                                <span
+                                    class="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-400 opacity-75"></span>
+                                <span class="relative inline-flex rounded-full h-3 w-3 bg-yellow-500"></span>
+                            </span>
+                            <span class="absolute top-[40%] left-[15%] z-30 flex h-3 w-3">
+                                <span
+                                    class="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-400 opacity-75"></span>
+                                <span class="relative inline-flex rounded-full h-3 w-3 bg-yellow-500"></span>
+                            </span>
+                            <span class="absolute top-[74%] left-[60%] z-30 flex h-3 w-3">
+                                <span
+                                    class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                                <span class="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+                            </span>
+                            <span class="absolute top-[67%] left-[24%] z-30 flex h-5 w-5">
+                                <span
+                                    class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                                <span class="relative inline-flex rounded-full h-5 w-5 bg-red-500"></span>
+                            </span>
+                            <img src="assets/img/indo maps.png" alt="peta" class="z-10">
+                            <!-- <p class="text-gray-500 text-center">Area visualisasi network graph akan muncul di sini.</p> -->
                         </div>
                     </div>
                     <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
@@ -308,8 +319,11 @@
                         <h3 class="text-xl font-bold text-white mb-4 flex-shrink-0">Visualisasi Jaringan Fraud</h3>
                         <div
                             class="flex-grow flex items-center justify-center h-full border-2 border-dashed border-gray-600 rounded-lg">
-                            <p class="text-gray-500 text-center">Mulai pencarian untuk menampilkan network graph di
-                                sini.<br>Klik pada node untuk melihat detail.</p>
+
+                            <img src="assets/img/indo maps.png" alt="peta">
+
+                            <!-- <p class="text-gray-500 text-center">Mulai pencarian untuk menampilkan network graph di
+                                sini.<br>Klik pada node untuk melihat detail.</p> -->
                         </div>
                     </div>
 
@@ -570,7 +584,8 @@
                         <h3 class="text-xl font-bold text-white mb-4">Kasus per Kategori Fraud</h3>
                         <div
                             class="flex items-center justify-center min-h-[300px] border-2 border-dashed border-gray-600 rounded-lg">
-                            <p class="text-gray-500">Placeholder untuk Bar Chart</p>
+                            <img src="assets/img/Dark Line Chart 3.png" alt="">
+                            <!-- <p class="text-gray-500">Placeholder untuk Bar Chart</p> -->
                         </div>
                     </div>
                     <!-- Grafik 2: Tren Fraud Harian -->
@@ -578,7 +593,8 @@
                         <h3 class="text-xl font-bold text-white mb-4">Tren Fraud Harian (30 Hari Terakhir)</h3>
                         <div
                             class="flex items-center justify-center min-h-[300px] border-2 border-dashed border-gray-600 rounded-lg">
-                            <p class="text-gray-500">Placeholder untuk Line Chart</p>
+                            <img src="assets/img/Dark Line Chart 1.png" alt="">
+                            <!-- <p class="text-gray-500">Placeholder untuk Line Chart</p> -->
                         </div>
                     </div>
                 </div>
