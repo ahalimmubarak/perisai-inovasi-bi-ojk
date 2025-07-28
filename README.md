@@ -52,8 +52,3 @@
 - Buat & kelola aturan pendeteksi fraud.
 - Kontrol & monitoring model **Generative AI**.
 - Cek performa dan akurasi model AI terbaru.
-
----
-
-## 📁 Struktur Proyek (Opsional)
-> Tambahkan struktur folder di sini jika dibutuhkan, contoh:
