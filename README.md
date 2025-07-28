@@ -1,46 +1,54 @@
-# perisai-inovasi-bi-ojk
+# 🛡️ PerisAI - Inovasi BI & OJK
 
-PerisAI: Platform berbasis Generative AI untuk pemetaan online fraud secara real time
+**PerisAI** adalah platform berbasis **Generative AI** untuk memetakan dan menganalisis potensi **fraud online secara real-time**. Dikembangkan sebagai bagian dari inisiatif transformasi digital oleh Bank Indonesia dan OJK.
 
-Main (Halaman Utama)
-> Tampilan awal aplikasi yang menyambut pengguna dengan informasi singkat tentang platform.
-Terdapat tombol "Masuk ke Aplikasi" yang mengarahkan ke halaman login.
+---
 
-Login
-> Pengguna memasukkan username dan password untuk masuk ke sistem.
-Setelah berhasil login, pengguna diarahkan ke Dashboard.
+## 🚀 Fitur Utama
 
-Dashboard
-> Menyajikan ringkasan data analisis fraud secara cepat:
-Jumlah kasus terdeteksi.
-Kerugian keuangan yang terjadi.
-Tingkat kepercayaan AI.
-Status peringatan (contohnya: "AWAS").
+### 🔹 Halaman Utama
+- Menyajikan informasi singkat tentang platform.
+- Tombol **"Masuk ke Aplikasi"** untuk akses login.
 
-Navigation
-> Menu navigasi utama yang memungkinkan pengguna mengakses fitur-fitur lain:
-Dashboard
-Investigasi
-Kasus
-Aturan & Model AI
+### 🔐 Login
+- Autentikasi pengguna menggunakan **username & password**.
+- Redirect otomatis ke **Dashboard** setelah login berhasil.
 
-Investigasi
-> Halaman untuk menganalisis jaringan fraud lebih mendalam.
-Menampilkan entitas yang terlibat, seperti IP, lokasi, serta tingkat risiko.
+### 📊 Dashboard
+- Menampilkan ringkasan data:
+  - 📈 Jumlah kasus fraud terdeteksi
+  - 💸 Estimasi kerugian keuangan
+  - 🤖 Tingkat kepercayaan AI
+  - 🚨 Status peringatan (contoh: *AWAS*)
 
-Manajemen Kasus
-> Menyediakan daftar semua kasus fraud yang terdeteksi.
-Dapat disaring berdasarkan status dan risiko.
-Ada opsi untuk menambahkan kasus baru.
+### 🧭 Navigasi
+- Akses cepat ke fitur utama:
+  - Dashboard
+  - Investigasi
+  - Manajemen Kasus
+  - Aturan & Model AI
 
-Laporan & Analisis
-> Menampilkan statistik dan tren:
-Total transaksi yang dicek.
-Nilai transaksi.
-Jenis fraud yang paling sering muncul.
-Durasi rata-rata investigasi.
+---
 
-Pengaturan / Aturan & Model AI
-> Membuat aturan (rules) untuk mendeteksi fraud.
-Mengelola model AI Generatif yang digunakan.
-Melihat tingkat akurasi model AI.
+## 🔎 Modul Fungsional
+
+### 🕵️ Investigasi
+- Visualisasi **jaringan entitas** (IP, lokasi, hubungan).
+- Deteksi pola & klasifikasi tingkat risiko.
+
+### 📂 Manajemen Kasus
+- Daftar semua kasus fraud terdeteksi.
+- Filter berdasarkan status atau level risiko.
+- Fitur **tambah kasus baru** untuk tracking manual.
+
+### 📈 Laporan & Analisis
+- Statistik dan insight menyeluruh:
+  - Total transaksi yang dicek
+  - Nilai transaksi
+  - Jenis fraud yang dominan
+  - Rata-rata durasi investigasi
+
+### ⚙️ Aturan & Model AI
+- Buat & kelola aturan pendeteksi fraud.
+- Kontrol & monitoring model **Generative AI**.
+- Cek performa dan akurasi model AI terbaru.
